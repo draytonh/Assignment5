@@ -1,4 +1,3 @@
-```
 #!/usr/bin/env python
 import sys # Load in module that accesses the command line
 import fileinput # This module gives us the ability to read files
@@ -124,4 +123,3 @@ elif sys.argv[1] == f:
         columns_matches = re.split(",",columns)
         if columns_matches[1] in Lookup_geneID:
             print Lookup_geneID[columns_matches[1]] + ", " + columns_matches[1] + ", " + columns_matches[2] + ", " + columns_matches[4]
-```
